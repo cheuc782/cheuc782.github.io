@@ -1,0 +1,41 @@
+body{
+  font-family: sans-serif;
+  color:black;
+}
+
+
+.outer{
+  text-align: center;
+}
+
+.page{
+
+  max-width: 800px;
+  width: 100%;
+  display: inline-block;
+}
+
+
+.topnav{
+  background-color: #323232;
+  height:50px;
+  text-align: left;
+  color:#FFF;
+
+}
+
+/* HERO IMAGE */
+.hero_content{
+	font-size:28px;
+	text-align: center;
+  width: 100%;
+}
+.hero_text_headline{
+	font-size: 28px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.hero_content img{
+	width:100%;
+}
