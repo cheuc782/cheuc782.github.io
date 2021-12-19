@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Filters</title>
+
+	<style>
+     .my_filter{
+			 max-width:800px;
+      -webkit-filter: hue-rotate(0deg);
+      filter: hue-rotate(0deg);
+
+     }
+
+
+
+
+
+    .my_filter:hover{
+
+      animation: 3s myfilteranimation forwards;
+
+    }
+
+
+
+
+     @keyframes myfilteranimation{
+
+			 0%{
+				-webkit-filter: hue-rotate(0deg) brightness(1);
+				 filter: hue-rotate(0deg) brightness(1);
+				}
+
+
+				25%{
+				-webkit-filter: hue-rotate(90deg) brightness(2);
+				 filter: hue-rotate(90deg) brightness(2);
+				}
+
+				50%{
+ 	       -webkit-filter: hue-rotate(180deg) brightness(3);
+ 	        filter: hue-rotate(180deg) brightness(3);
+ 	       }
+
+				 75%{
+ 	       -webkit-filter: hue-rotate(270deg) brightness(4);
+ 	        filter: hue-rotate(270deg) brightness(4);
+ 	       }
+
+				 100%{
+	       -webkit-filter: hue-rotate(360deg) brightness(5);
+	        filter: hue-rotate(360deg) brightness(5);
+	       }
+
+     }
+
+
+
+
+	</style>
+</head>
+<body>
+
+<img class="my_filter" src="img/infinity.jpg" alt="Infinity Room">
+
+</body>
+</html>
